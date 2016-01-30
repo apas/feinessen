@@ -1,6 +1,6 @@
 # lunchable
 
-**lunchable** is a Python application to send [feinessen][fe]'s daily lunch menu as a text message using the Twilio API.
+**lunchable** is a Python application to send [feinessen][fe]'s daily lunch menu as a text message using the Twilio API. 
 
 ## Installation
 
