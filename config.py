@@ -1,0 +1,6 @@
+twilio_account = "enter-value"
+twilio_token = "enter-value"
+from_twilio = "enter-value"
+receipient1 = "enter-value"
+receipient2 = "enter-value"
+receipient3 = "enter-value"
