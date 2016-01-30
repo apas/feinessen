@@ -48,9 +48,9 @@ for i in food_dict:
     pass
 
 if today.isoweekday() in range(1, 6):
-  message = client.messages.create(to=config.receipient1, from_=config.from_twilio,
+  message = client.messages.create(to=config.recipient1, from_=config.from_twilio,
     body=menu)
-  message = client.messages.create(to=config.receipient2, from_=config.from_twilio,
+  message = client.messages.create(to=config.recipient2, from_=config.from_twilio,
     body=menu)
-  message = client.messages.create(to=config.receipient3, from_=config.from_twilio,
+  message = client.messages.create(to=config.recipient3, from_=config.from_twilio,
     body=menu) 
