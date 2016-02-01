@@ -31,7 +31,7 @@ for index, meal in enumerate(meals):
     meals.pop(index)
 
 meals[5:] = [] # get only first 5 items
-days.insert(0, monday[0]) # insert monday as first elem in list
+# days.insert(0, monday[0]) # insert monday as first elem in list
 today = datetime.datetime.now()
 
 food_dict = {}
